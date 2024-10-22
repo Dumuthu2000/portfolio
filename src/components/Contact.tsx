@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { Link, NavLink } from 'react-router-dom';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { Github, Linkedin, Facebook } from 'lucide-react';
 

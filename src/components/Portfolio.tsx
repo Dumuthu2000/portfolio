@@ -1,17 +1,19 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
+import paintCorner1 from '../assets/paintCorner1.png';
+import paintCorner2 from '../assets/paintCorner2.png';
+import paintCorner3 from '../assets/paintCorner3.png';
+import paintCorner5 from '../assets/paintCorner5.png';
+import paintCorner6 from '../assets/paintCorner6.png';
+import paintCorner7 from '../assets/paintCorner7.png';
 
 const projects = [
   {
     title: 'Vehicle Repair Management System',
     category: 'Web Development',
     image: 'https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/384497735_171232409362764_4309217187760119073_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEU4brmspcnVUnZOd1SrYGBIneaanO2Yboid5pqc7ZhuszXYRvyMOGiW-Nn1AXqzlbaEIw3orMwgl9KNWfAG_jN&_nc_ohc=wj7ovCPa_ZwQ7kNvgECyzNd&_nc_zt=23&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=A1PYugv0Xx8F4ctMpKjlbdS&oh=00_AYBt_9IuD5Nk7fhKJTeb_r7acTTivtLwbrAXcVDqaKOkfg&oe=671D392F',
-    images: [
-      'https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/384497735_171232409362764_4309217187760119073_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEU4brmspcnVUnZOd1SrYGBIneaanO2Yboid5pqc7ZhuszXYRvyMOGiW-Nn1AXqzlbaEIw3orMwgl9KNWfAG_jN&_nc_ohc=wj7ovCPa_ZwQ7kNvgECyzNd&_nc_zt=23&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=A1PYugv0Xx8F4ctMpKjlbdS&oh=00_AYBt_9IuD5Nk7fhKJTeb_r7acTTivtLwbrAXcVDqaKOkfg&oe=671D392F',
-      'https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/384497735_171232409362764_4309217187760119073_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEU4brmspcnVUnZOd1SrYGBIneaanO2Yboid5pqc7ZhuszXYRvyMOGiW-Nn1AXqzlbaEIw3orMwgl9KNWfAG_jN&_nc_ohc=wj7ovCPa_ZwQ7kNvgECyzNd&_nc_zt=23&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=A1PYugv0Xx8F4ctMpKjlbdS&oh=00_AYBt_9IuD5Nk7fhKJTeb_r7acTTivtLwbrAXcVDqaKOkfg&oe=671D392F',
-      'https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/384497735_171232409362764_4309217187760119073_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEU4brmspcnVUnZOd1SrYGBIneaanO2Yboid5pqc7ZhuszXYRvyMOGiW-Nn1AXqzlbaEIw3orMwgl9KNWfAG_jN&_nc_ohc=wj7ovCPa_ZwQ7kNvgECyzNd&_nc_zt=23&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=A1PYugv0Xx8F4ctMpKjlbdS&oh=00_AYBt_9IuD5Nk7fhKJTeb_r7acTTivtLwbrAXcVDqaKOkfg&oe=671D392F'
-    ],
+    images: [paintCorner1, paintCorner2, paintCorner2, paintCorner3, paintCorner5,  paintCorner6, paintCorner7],
     description: 'A vehicle repair management system that handles estimates, quotes, purchase orders, invoices, and reports with robust user authentication for Paint Corner Vehicle Accident Repair Center',
     technologies: ['React.js', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Docker'],
     functionality: [
