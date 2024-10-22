@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
+import { Link, NavLink } from 'react-router-dom';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { Github, Linkedin, Facebook } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -33,6 +35,17 @@ const Contact = () => {
             <div className="flex items-center">
               <MapPin className="text-blue-600 mr-4" size={24} />
               <p className="text-gray-600 dark:text-gray-300">Minuwangoda, Sri Lanka</p>
+            </div>
+            <div className="flex items-center justify-center mt-5 bg-slate-700 w-[10rem] rounded-md p-2 dark:bg-white">
+            <a href="https://github.com/Dumuthu2000" target="_blank" rel="noopener noreferrer">
+              <Github className="text-white mr-4 dark:text-black" size={24} />
+            </a>
+            <a href="https://www.linkedin.com/in/dumuthu-jayasinghe/" target="_blank" rel="noopener noreferrer">
+              <Linkedin className="text-white mr-4 dark:text-black" size={24} />
+            </a>
+            <a href="https://www.facebook.com/dimuthu.jayasinghe.1806" target="_blank" rel="noopener noreferrer">
+              <Facebook className="text-white mr-4 dark:text-black" size={24} />
+            </a>
             </div>
           </motion.div>
           <motion.div
