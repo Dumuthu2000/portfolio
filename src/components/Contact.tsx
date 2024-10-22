@@ -26,7 +26,7 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Contact Information</h3>
             <div className="flex items-center mb-4">
               <Mail className="text-blue-600 mr-4" size={24} />
-              <p className="text-gray-600 dark:text-gray-300">dumuthujayasinghe@example.com</p>
+              <p className="text-gray-600 dark:text-gray-300">dumuthujayasinghe@gmail.com</p>
             </div>
             <div className="flex items-center mb-4">
               <Phone className="text-blue-600 mr-4" size={24} />
